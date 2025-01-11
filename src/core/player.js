@@ -1,9 +1,8 @@
 import { AutomatorPanels } from "@/components/tabs/automator/AutomatorDocs";
+import { deepmergeAll } from "@/utility/deepmerge";
 import { GlyphInfo } from "@/components/modals/options/SelectGlyphInfoDropdown";
 
 import { AUTOMATOR_MODE, AUTOMATOR_TYPE } from "./automator/automator-backend";
-import { DC } from "./constants";
-import { deepmergeAll } from "@/utility/deepmerge";
 import { GlyphTypes } from "./glyph-effects";
 
 // This is actually reassigned when importing saves

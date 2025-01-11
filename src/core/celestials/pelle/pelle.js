@@ -1,14 +1,10 @@
 import { Currency } from "../../currency";
-import { DC } from "../../constants";
+import { Quotes } from "../quotes";
 import { RebuyableMechanicState } from "../../game-mechanics/rebuyable";
 import { SetPurchasableMechanicState } from "../../utils";
-
-import { Quotes } from "../quotes";
-
 import wordShift from "../../word-shift";
 
 import zalgo from "./zalgo";
-
 
 const disabledMechanicUnlocks = {
   achievements: () => ({}),

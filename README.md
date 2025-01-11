@@ -1,9 +1,10 @@
-# Antimatter Dimensions
+# Antimatter Dimensions - "My Changes"
+Antimatter Dimensions fork with some changes to make development of mods easier.
+Currently based on commit [b813542](https://github.com/IvarK/AntimatterDimensionsSourceCode/commit/b813542).
 
 ## Run
 
-To run the game locally, you will need to install
-[Node.js](https://nodejs.org/) (LTS suggested).
+To run the game locally, you will need to install [Node.js](https://nodejs.org/) (LTS 20 suggested).
 
 First, run the following command in your terminal (or command line) while being
 inside the checked out repository:

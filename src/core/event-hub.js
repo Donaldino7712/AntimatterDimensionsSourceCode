@@ -105,10 +105,6 @@ window.GAME_EVENT = {
   AUTOMATOR_CONSTANT_CHANGED: "AUTOMATOR_CONSTANT_CHANGED",
   PELLE_STRIKE_UNLOCKED: "PELLE_STRIKE_UNLOCKED",
 
-  // Used by events to signify that they are triggered by a particular
-  // event, not handled by the event hub
-  ACHIEVEMENT_EVENT_OTHER: "ACHIEVEMENT_EVENT_OTHER",
-
   ENTER_PRESSED: "ENTER_PRESSED",
   ARROW_KEY_PRESSED: "ARROW_KEY_PRESSED",
 

@@ -3,7 +3,6 @@ import TWEEN from "@tweenjs/tween.js";
 import { ElectronRuntime, SteamRuntime } from "@/steam";
 
 import { Cloud } from "./core/storage";
-import { DC } from "./core/constants";
 import { deepmergeAll } from "@/utility/deepmerge";
 import { DEV } from "@/env";
 import { SpeedrunMilestone } from "./core/speedrun";
@@ -806,7 +805,7 @@ function applyAutoprestige(diff) {
   }
 
   if (PelleRifts.chaos.milestones[2].canBeApplied) {
-    Currency.eternityPoints.add(gainedEternityPoints().times(DC.D0_1).times(diff / 1000));
+    Currency.eternityPoints.add(gainedEternityPoints().div(10).times(diff / 1000));
   }
 }
 

@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node build/check-npm.js && vite",
+    "dev": "vite",
     "build:master": "node build/pre-build.js && vite build --mode master && node build/post-build.js",
     "build:release": "node build/pre-build.js && vite build && node build/post-build.js",
     "build:steam-development": "node build/pre-build.js && vite build --mode steam-development",

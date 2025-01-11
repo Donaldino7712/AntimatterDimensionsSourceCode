@@ -1,5 +1,3 @@
-import { DC } from "./constants";
-
 class BlackHoleUpgradeState {
   constructor(config) {
     const { getAmount, setAmount, calculateValue, initialCost, costMult } = config;

@@ -1,35 +1,28 @@
-import { DC } from "../../constants";
-
 export const normalAchievements = [
   {
     id: 11,
     name: "You gotta start somewhere",
     description: "Buy a 1st Antimatter Dimension.",
-    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 12,
     name: "100 antimatter is a lot",
     description: "Buy a 2nd Antimatter Dimension.",
-    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 13,
     name: "Half life 3 CONFIRMED",
     description: "Buy a 3rd Antimatter Dimension.",
-    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 14,
     name: "L4D: Left 4 Dimensions",
     description: "Buy a 4th Antimatter Dimension.",
-    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 15,
     name: "5 Dimension Antimatter Punch",
     description: "Buy a 5th Antimatter Dimension.",
-    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 16,
@@ -39,13 +32,11 @@ export const normalAchievements = [
         ? "Buy a 6th Antimatter Dimension (they never amount to anything)"
         : "Buy a 6th Antimatter Dimension.";
     },
-    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 17,
     name: "Not a luck related achievement",
     description: "Buy a 7th Antimatter Dimension.",
-    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 18,
@@ -55,7 +46,6 @@ export const normalAchievements = [
         ? "Buy an 8th Antimatter Dimension (don't get used to it)"
         : "Buy an 8th Antimatter Dimension.";
     },
-    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 21,
@@ -116,7 +106,6 @@ export const normalAchievements = [
       return `Buy a single 1st Antimatter Dimension when you have over ${format(DC.E150)} of them.`;
     },
     checkRequirement: () => AntimatterDimension(1).amount.exponent >= 150,
-    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
     get reward() { return `1st Antimatter Dimensions are ${formatPercents(0.1)} stronger.`; },
     effect: 1.1
   },
@@ -803,7 +792,6 @@ export const normalAchievements = [
     id: 115,
     name: "I wish I had gotten 7 eternities",
     description: "Start an Infinity Challenge inside an Eternity Challenge.",
-    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 116,
@@ -988,7 +976,6 @@ export const normalAchievements = [
     id: 136,
     name: "I told you already, time is relative",
     description: "Dilate time.",
-    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 137,
